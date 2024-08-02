@@ -36,7 +36,7 @@ const CabinTable = () => {
 		error,
 	} = useQuery({
 		// queryKey uniquely identify the data that we are querying for
-		queryKey: ["cabin"],
+		queryKey: ["cabins"],
 
 		// The queryFn is the function that is used to fetch the data, but it is needed here to return a promise
 		queryFn: getCabins,
